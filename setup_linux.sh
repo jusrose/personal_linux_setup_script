@@ -1,6 +1,6 @@
 #! /bin/bash
 
-apt install -y rhythmbox vlc snapd thonny chromium-bsu python3 python3-pip fritzing openjdk-8-jdk kodi synaptic gdebi sqlitebrowser libreoffice
+apt install -y rhythmbox vlc snapd thonny chromium-bsu python3 python3-pip fritzing openjdk-8-jdk kodi synaptic gdebi sqlitebrowser libreoffice ubuntustudio-installer
 clear
 pip3 install youtube-dl pandas pygame guizero sqlalchemy pyserial pynput
 clear
