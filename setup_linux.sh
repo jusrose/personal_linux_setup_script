@@ -1,6 +1,6 @@
 #! /bin/bash
 
-apt install -y rhythmbox vlc snapd thonny chromium-bsu python3 python3-pip fritzing openjdk-8-jdk kodi synaptic gdebi sqlitebrowser libreoffice ubuntustudio-installer
+apt install -y rhythmbox vlc snapd thonny chromium-bsu python3 python3-pip fritzing openjdk-8-jdk kodi synaptic gdebi sqlitebrowser libreoffice ubuntustudio-installer gnome-disk-utility desmume
 clear
 pip3 install youtube-dl pandas pygame guizero sqlalchemy pyserial pynput
 clear
@@ -18,7 +18,7 @@ clear
 gdebi minecraft.deb skype.deb vnc_server.deb vnc_viewer.deb atlauncher.deb steam.deb
 clear
 apt update
-apt upgrade -y
+apt dist-upgrade -y
 clear
 echo "please reboot"
 sleep 10
